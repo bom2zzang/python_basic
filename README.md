@@ -1,5 +1,4 @@
 # python_basic
-## 파이썬 시작하기
 ***
 * 설치  
     파이썬 <https://www.python.org/>  
