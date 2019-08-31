@@ -11,8 +11,9 @@ def verify():
         p4 =int(pwd[3])
         pw = [p1, p2, p3, p4]
     else:
-        print("숫자만 입력할 수 있습니다.")
+        print("4자리 숫자만 입력할 수 있습니다.")
         return False
+
 
 
     for idx, pw1 in enumerate(pw):
@@ -23,11 +24,19 @@ def verify():
                 if pw1 == pw2:
                     print("중복된 숫자 안돼.")
                     return False 
-                elif pw1+1 == pw2:
+                #elif pw1+1 == pw2:
+                #    print("연속된 숫자 안돼")
+                #    return False
+            if idx+1 == idx2:
+                #print(pw1,"_",pw2)
+                if pw1+1 == pw2 or pw1 == pw2+1:
                     print("연속된 숫자 안돼")
                     return False
+
     print("pass")
     return True                
+
+
 
 
 # 실행해보자
