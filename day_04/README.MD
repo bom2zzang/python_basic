@@ -43,6 +43,18 @@ CMD > pip install mysqlclient
     $ FLUSH PRIVILEGES; 
 ~~~
 
-
+* jupyter notebook
+~~~
+    !pip install pandas     #데이터분석
+    !pip install xlrd       #
+    !pip install xlsxwriter #
+    !pip install matplotlib # 
+~~~
+* 설치 후 
+~~~
+import pandas as pd
+df = pd.read_excel("학생시험성적.xlsx")
+df
+~~~
 
 ***
