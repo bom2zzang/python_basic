@@ -11,3 +11,6 @@ quotes = re.findall(r'"[^"]*"', text)
 for quote in quotes:
     print(quote)
     print()
+
+
+    #이거 안됨 뭐야 ..
