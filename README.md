@@ -11,4 +11,11 @@
     VSCode <https://code.visualstudio.com/> 
     - 확장프로그램 : python, Korean Language pack  
 
+PDF 
+~~~
+pip3 install PyPDF2
+pip3 install textract
+pip3 install nltk
+pip3 install pdfminer3k
+~~~
 ***
