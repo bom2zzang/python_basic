@@ -1,4 +1,4 @@
-# python_basic
+# test  python_basic
 ***
 * 설치  
     파이썬 <https://www.python.org/>  
